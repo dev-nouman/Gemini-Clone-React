@@ -48,7 +48,6 @@ const Main = () => {
                             <p>{recentPrompt}</p>
                         </div>
                         <div className="result-data">
-                            <img src={assets.user_icon} alt="ai icon" />
                             {loading ? (
                                 <div className="loader">
                                     <hr className="animated-bg" />
