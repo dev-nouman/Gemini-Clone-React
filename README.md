@@ -1,16 +1,75 @@
-# React + Vite
+# ✨ Gemini Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <img src="https://img.shields.io/badge/AI-Gemini-blue?style=for-the-badge&logo=google" />
+  <img src="https://img.shields.io/badge/Frontend-React-61DAFB?style=for-the-badge&logo=react" />
+  <img src="https://img.shields.io/badge/Build-Vite-646CFF?style=for-the-badge&logo=vite" />
+  <img src="https://img.shields.io/badge/Language-JavaScript-yellow?style=for-the-badge&logo=javascript" />
+</p>
 
-Currently, two official plugins are available:
+<p align="center">
+  <b>A sleek, responsive AI chat application powered by Google Gemini 🚀</b>
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🧠 Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Gemini Clone** is a modern AI chat interface inspired by Google's Gemini.  
+It replicates the core UI/UX while integrating real AI responses using the **Gemini API**.
 
-## Expanding the ESLint configuration
+Designed with performance and simplicity in mind, this project demonstrates:
+- Clean component architecture ⚛️
+- Real-time AI interaction 🤖
+- Smooth user experience ✨
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Live Preview
+
+`https://gemini-ai-n.vercel.app/`
+
+---
+
+## 🚀 Features
+
+✨ **Google Gemini AI Integration**  
+→ Connects directly to `gemini-2.5-flash` using `@google/genai`
+
+🧠 **Context-Aware Memory**  
+→ Maintains chat history using React Context API
+
+📜 **Sidebar Chat History**  
+→ Revisit previous prompts instantly
+
+📝 **Markdown Rendering**  
+→ Clean formatting via `react-markdown`
+
+⌨️ **Enter Key Submission**  
+→ Faster interaction without mouse clicks
+
+🎯 **Custom Prompt Cards**  
+→ Quick actions for dev, study, and daily use
+
+📱 **Fully Responsive UI**  
+→ Works smoothly on all devices
+
+---
+
+## 🛠️ Tech Stack
+
+| Category        | Technology |
+|----------------|-----------|
+| ⚛️ Frontend     | React 19 (Vite) |
+| 🧠 State        | React Context API |
+| 🎨 Styling      | Vanilla CSS (Flexbox, Grid, Animations) |
+| 🤖 AI API       | Google Gemini (`@google/genai`) |
+| 📦 Libraries    | `react-markdown` |
+
+---
+<h2>👨‍💻 Author</h2>
+<p>Nouman Ali</p>
+<hr>
+
+<h2>⭐ Support</h2>
+<p>If you like this project, please give it a ⭐ on GitHub.</p>
