@@ -7,7 +7,7 @@ const ai = new GoogleGenAI({
 let chatHistory = [];
 
 export async function askGemini(userInput) {
-  const model = 'gemini-2.5-flash'; 
+  const model = 'gemini-3-flash-preview'; 
 
   chatHistory.push({
     role: 'user',

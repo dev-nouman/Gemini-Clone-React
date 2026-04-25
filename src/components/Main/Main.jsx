@@ -82,7 +82,7 @@ const Main = () => {
                             {input ? <img onClick={() => onSent()} src={assets.send_icon} alt="send pic" style={{ cursor: 'pointer' }} /> : null}
                         </div>
                     </div>
-                    <p className="bottom-info">Gemini may display inaccurate info, including about people, so double-check its responses.</p>
+                    <p className="bottom-info">Gemini is AI and can make mistakes.</p>
                 </div>
             </div>
         </div>

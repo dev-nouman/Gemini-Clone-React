@@ -181,70 +181,105 @@
 }
 
 
+.result-data h1, 
+.result-data h2, 
+.result-data h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #282828;
+    font-weight: 600;
+}
+
+.result-data p {
+    margin-bottom: 15px;
+    line-height: 1.7;
+    color: #444746;
+}
+
+.result-data ul, 
+.result-data ol {
+    margin: 10px 0 10px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.result-data li {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.result-data strong {
+    font-weight: 600;
+    color: #1f1f1f;
+}
+
+
+.result-data pre {
+    background-color: #f6f8fa;
+    padding: 15px;
+    border-radius: 8px;
+    overflow-x: auto;
+    margin: 15px 0;
+}
+
+.result-data code {
+    background-color: #f0f4f9;
+    padding: 2px 5px;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9em;
+}
+
 @media (max-width: 600px) {
-    .main .nav {
-        padding: 15px;
-        font-size: 18px;
+    .main {
+        display: flex;
+        flex-direction: column;
+        height: 100vh; 
+        padding-bottom: 0 !important;
+        overflow: hidden; 
     }
 
-    .greet {
-        margin: 20px 0;
-        font-size: 32px;
-        padding: 10px 15px;
+    .main-container {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
     }
 
-    .cards {
-        grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-        gap: 10px;
-        padding: 10px 15px;
-    }
-
-    .card {
-        height: auto;
-        min-height: 100px;
-    }
-
-    .card p {
-        font-size: 14px;
-    }
-
-
-    .result-data {
-        display: block;
-        width: 100%;
+    .result {
+        flex: 1; 
         padding: 0 15px;
-    }
-
-    .result-data p {
-        font-size: 15px;
-        line-height: 1.6;
+        max-height: none; 
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
     }
 
     .main-bottom {
-        padding: 0 10px;
+        position: static; 
+        width: 100%;
+        padding: 10px 15px;
+        background-color: #fff;
+        border-top: 1px solid #f0f4f9;
     }
 
-
     .search-box {
-        padding: 5px 12px;
-        gap: 5px;
+        padding: 10px 15px;
+        gap: 10px;
     }
 
     .search-box input {
-        flex: 1;
-        min-width: 0;
-        width: 0;
-        font-size: 14px;
-        padding: 10px 5px;
+        font-size: 16px;
     }
 
-    .search-box div {
-        display: flex;
-        gap: 8px;
-        flex-shrink: 0;
+    .bottom-info {
+        font-size: 13px;
+        margin: 5px 0;
     }
 
-    .search-box img {
-        width: 18px;
+
+    .cards {
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
     }
 }
